@@ -26,3 +26,14 @@ And it was solved by running the ```docker kill container``` command
 
 Faced no problem while doing so.
 
+## Added PostgreSQL and DynamoDB to Gitpod
+
+Copied the code as instrusted and was able to successfully run Postgres and DynamoDB
+
+Ran the following command to check whether the Postgres was working or not:
+
+```
+psql -Upostgres --host localhost
+```
+
+![image](https://user-images.githubusercontent.com/62908116/222466940-2c01047c-7d38-41a9-9de9-9476faa246e0.png)
